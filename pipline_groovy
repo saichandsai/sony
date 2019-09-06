@@ -1,0 +1,12 @@
+node{
+    
+  stage('clone') {
+    git ''
+  }
+  
+   stage('maven targets') {
+    sh label: '', script: 'mvn install'
+   }
+    
+    
+}

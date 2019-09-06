@@ -1,7 +1,7 @@
 node{
     
   stage('clone') {
-    git ''
+    git 'https://github.com/saichandsai/sony.git'
   }
   
    stage('maven targets') {
